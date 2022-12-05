@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: -1px;
+}
+
+.text {
+   
+    width: 60%;
+    border-collapse: collapse;
+    border-right: 1px solid black;
+}
+
+.completedFalse {
+    color: brown;
+    width: 20%;
+    border-collapse: collapse;
+    border-right: 1px solid black;
+
+}
+.completedTrue {
+    color: green;
+    width: 20%;
+    border-collapse: collapse;
+    border-right: 1px solid black;
+
+}
+.id {
+    color: blue;
+}
